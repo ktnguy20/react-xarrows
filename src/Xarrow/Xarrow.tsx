@@ -8,7 +8,7 @@ import { getPosition } from './utils/GetPosition';
 const log = console.log;
 
 const Xarrow: React.FC<xarrowPropsType> = (props: xarrowPropsType) => {
-  // log('xarrow update');
+  log('xarrow update');
 
   const mainRef = useRef({
     svgRef: useRef<SVGSVGElement>(null),
